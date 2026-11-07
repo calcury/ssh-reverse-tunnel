@@ -4,6 +4,6 @@ while ($true) {
         -o "ServerAliveCountMax 3" `
         -o "ExitOnForwardFailure yes" `
         -o "StrictHostKeyChecking accept-new" `
-        user@hostname
+        username@hostname
     Start-Sleep -Seconds 5
 }
